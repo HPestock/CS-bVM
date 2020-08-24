@@ -28,3 +28,5 @@ Instruction set:
 0x0014 | CMPLE, - set flag_cmp to 1 if stack[SP-1] <= stack[SP] otherwise set flag_cmp to 0
 0x0015 | BIP, (MEMORY LOCATION), - branch to MEMORY LOCATION if flag_cmp is set to 1
 0xffff | HALT, - set PC to 1000
+
+CS-bVM (c) Christian Pestock 2020
