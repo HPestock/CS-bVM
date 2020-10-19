@@ -11,7 +11,7 @@ Instruction set: <br>
 0x0003 | POP, (STACK LOCATION), - remove {pop} stack value STACK LOCATION (0 is top, 1 is top -1, etc...) <br>
 0x0004 | CLRST, - clear stack <br>
 0x0005 | MSM, (STACK NUMBER), (MEMORY LOCATION), -  copy value from stack[STACK NUMBER] (0 is top) to memory[MEMORY LOCATION] <br>
-0x0006 | ADDN, - add top two numbers on stack <br>
+0x0006 | ADDT, - add top two numbers on stack <br>
 0x0007 | SUB, - subtract top two numbers on stack <br>
 0x0008 | MULT, - multiply top two numbers on stack <br>
 0x0009 | DIV, - divide top two numbers on stack <br>
